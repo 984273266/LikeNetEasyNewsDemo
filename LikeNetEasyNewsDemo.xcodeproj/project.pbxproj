@@ -13,6 +13,9 @@
 		BB7AD6851D38A8B900CF24F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7AD6831D38A8B900CF24F1 /* Main.storyboard */; };
 		BB7AD6871D38A8B900CF24F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7AD6861D38A8B900CF24F1 /* Assets.xcassets */; };
 		BB7AD68A1D38A8B900CF24F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7AD6881D38A8B900CF24F1 /* LaunchScreen.storyboard */; };
+		BB7AD6931D38A97D00CF24F1 /* NewsTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7AD6921D38A97D00CF24F1 /* NewsTypeView.m */; };
+		BB7AD6991D38A9BA00CF24F1 /* NewsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7AD6981D38A9BA00CF24F1 /* NewsListView.m */; };
+		BB7AD69C1D38AA6E00CF24F1 /* TypeData.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7AD69B1D38AA6E00CF24F1 /* TypeData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		BB7AD6861D38A8B900CF24F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB7AD6891D38A8B900CF24F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB7AD68B1D38A8B900CF24F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7AD6911D38A97D00CF24F1 /* NewsTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTypeView.h; sourceTree = "<group>"; };
+		BB7AD6921D38A97D00CF24F1 /* NewsTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTypeView.m; sourceTree = "<group>"; };
+		BB7AD6971D38A9BA00CF24F1 /* NewsListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListView.h; sourceTree = "<group>"; };
+		BB7AD6981D38A9BA00CF24F1 /* NewsListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListView.m; sourceTree = "<group>"; };
+		BB7AD69A1D38AA6E00CF24F1 /* TypeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeData.h; sourceTree = "<group>"; };
+		BB7AD69B1D38AA6E00CF24F1 /* TypeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				BB7AD6881D38A8B900CF24F1 /* LaunchScreen.storyboard */,
 				BB7AD68B1D38A8B900CF24F1 /* Info.plist */,
 				BB7AD67A1D38A8B900CF24F1 /* Supporting Files */,
+				BB7AD6911D38A97D00CF24F1 /* NewsTypeView.h */,
+				BB7AD6921D38A97D00CF24F1 /* NewsTypeView.m */,
+				BB7AD6971D38A9BA00CF24F1 /* NewsListView.h */,
+				BB7AD6981D38A9BA00CF24F1 /* NewsListView.m */,
+				BB7AD69A1D38AA6E00CF24F1 /* TypeData.h */,
+				BB7AD69B1D38AA6E00CF24F1 /* TypeData.m */,
 			);
 			path = LikeNetEasyNewsDemo;
 			sourceTree = "<group>";
@@ -150,8 +165,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB7AD6821D38A8B900CF24F1 /* ViewController.m in Sources */,
+				BB7AD69C1D38AA6E00CF24F1 /* TypeData.m in Sources */,
+				BB7AD6991D38A9BA00CF24F1 /* NewsListView.m in Sources */,
 				BB7AD67F1D38A8B900CF24F1 /* AppDelegate.m in Sources */,
 				BB7AD67C1D38A8B900CF24F1 /* main.m in Sources */,
+				BB7AD6931D38A97D00CF24F1 /* NewsTypeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
